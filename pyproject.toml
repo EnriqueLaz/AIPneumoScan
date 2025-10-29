@@ -1,0 +1,23 @@
+[project]
+name = "pneumoscan"
+version = "1.0.0"
+description = "AI PneumoScan - Detección automática de neumonía en rayos X."
+authors = [{name = "Brisa Samara Fernández Cervantes"}]
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "tensorflow",
+    "pillow",
+    "numpy",
+    "streamlit",
+    "requests",
+    "python-multipart",
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "pneumoscan"}
+packages = ["pneumoscan"]

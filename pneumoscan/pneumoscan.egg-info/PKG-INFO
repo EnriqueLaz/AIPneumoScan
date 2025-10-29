@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: pneumoscan
+Version: 1.0.0
+Summary: AI PneumoScan - Detección automática de neumonía en rayos X.
+Author: Brisa Samara Fernández Cervantes
+Requires-Dist: fastapi
+Requires-Dist: uvicorn[standard]
+Requires-Dist: tensorflow
+Requires-Dist: pillow
+Requires-Dist: numpy
+Requires-Dist: streamlit
+Requires-Dist: requests
+Requires-Dist: python-multipart
